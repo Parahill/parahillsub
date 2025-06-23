@@ -9,33 +9,19 @@
     body {
       margin: 0;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: #0b0b17;
-      color: #eee;
+      background: #f8f8f8;
+      color: #222;
       line-height: 1.6;
-      min-height: 100vh;
-      display: flex;
-      flex-direction: column;
-    }
-    body::before {
-      content: "";
-      position: fixed;
-      top: 0; left: 0; right: 0; bottom: 0;
-      background: url('https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1920&q=80') no-repeat center center/cover;
-      opacity: 0.12;
-      z-index: -1;
-      filter: brightness(0.4) contrast(1.1);
     }
     header {
-      background-color: rgba(20, 20, 35, 0.85);
+      background-color: #333;
+      color: white;
       padding: 1.5rem 2rem;
       text-align: center;
-      border-bottom: 1px solid #444;
     }
     header h1 {
       margin: 0;
-      font-weight: 700;
       font-size: 2.5rem;
-      letter-spacing: 2px;
     }
     nav {
       margin-top: 10px;
@@ -45,47 +31,28 @@
       text-decoration: none;
       margin: 0 15px;
       font-weight: 600;
-      font-size: 1.1rem;
-      transition: color 0.3s;
     }
     nav a:hover {
-      color: #60a0ff;
+      text-decoration: underline;
     }
     main {
-      flex-grow: 1;
       padding: 2rem 20px;
       max-width: 900px;
       margin: 0 auto;
     }
     section {
       margin-bottom: 3rem;
-      background-color: rgba(25, 25, 45, 0.8);
+      background-color: #fff;
       padding: 1.5rem 2rem;
       border-radius: 8px;
-      box-shadow: 0 0 15px rgba(0,0,0,0.5);
-    }
-    section h2 {
-      margin-top: 0;
-      color: #a1cdf1;
-      border-bottom: 2px solid #5577cc;
-      padding-bottom: 6px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
     }
     footer {
       text-align: center;
       padding: 1rem;
-      background-color: rgba(20, 20, 35, 0.85);
+      background-color: #eee;
       font-size: 0.9rem;
-      color: #888;
-      border-top: 1px solid #444;
-    }
-    @media (max-width: 600px) {
-      header h1 {
-        font-size: 2rem;
-      }
-      nav a {
-        margin: 0 8px;
-        font-size: 1rem;
-      }
+      color: #555;
     }
   </style>
 </head>
@@ -95,7 +62,7 @@
   <h1>Parahill Magyar Feliratai</h1>
   <nav>
     <a href="#rolam">Rólam</a>
-    <a href="#munkak">Munkáim</a>
+    <a href="munkak.html">Munkáim</a>
     <a href="#kapcsolat">Kapcsolat</a>
   </nav>
 </header>
@@ -105,16 +72,11 @@
     <h2>Rólam</h2>
     <p>Üdvözöllek az oldalamon!<br />
     Parahill vagyok, angol–magyar fordító, aki főként filmes feliratokkal foglalkozik hobbiból. Munkáimban arra törekszem, hogy az eredeti hangulatot és jelentést megőrizve, könnyen érthető és természetes magyar nyelvű feliratokat készítsek. Hiszem, hogy a jó fordítás hidat képez a kultúrák között, és élménnyé teszi a filmnézést.</p>
-    <p>Köszönöm, hogy benéztél, és remélem, munkáim elnyerik a tetszésedet!</p>
   </section>
-
-  <section id="munkak">
-
 
   <section id="kapcsolat">
     <h2>Kapcsolat</h2>
-    <p>Ha felvennéd velem a kapcsolatot, írj nyugodtan az alábbi email címre:</p>
-    <p><a href="mailto:cgparahill@gmail.com">cgparahill@gmail.com</a></p>
+    <p>Email: <a href="mailto:cgparahill@gmail.com">cgparahill@gmail.com</a></p>
     <p>Facebook csoportom:  
       <a href="https://www.facebook.com/groups/633886928213002" target="_blank">
         https://www.facebook.com/groups/633886928213002
